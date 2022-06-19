@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" style="background: url(&quot;assets/img/bg.jpg&quot;) center / cover repeat-y;width: 100%;height: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Results</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="d-lg-flex flex-column justify-content-lg-center" style="background: rgba(255,255,255,0);height: 100%;width: 100%;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 d-lg-flex flex-column justify-content-lg-center align-items-lg-center" style="width: 40%;">
+                <h1 class="text-center" style="width: 100%;color: rgb(255,255,255);font-size: 40px;"><?=$message?></h1>
+            </div>
+            <div class="col-md-6" style="width: 60%;">
+                <div class="d-lg-flex flex-column align-items-lg-center" style="width: 100%;margin-top: 50px;">
+                <img style="width: 300px;height: 400px;object-fit:cover" src="<?=$imageURI?>">
+                <a class="btn btn-primary" role="button" style="background: rgb(255,210,0);border-radius: 20px;padding-right: 25px;padding-left: 25px;margin-top: 20px;" 
+                href="Home">Back</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
