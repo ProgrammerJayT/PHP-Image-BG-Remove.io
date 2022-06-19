@@ -32,7 +32,7 @@ class Home extends Controller
                         ]
                     ],
                     'headers' => [
-                        'X-Api-Key' => ''
+                        'X-Api-Key' => 'SET_YOUR_API_KEY'
                     ]
                 ]);
                 
